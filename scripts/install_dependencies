@@ -1,0 +1,4 @@
+#!/bin/bash
+python3 -m venv djangovenv
+source djangovenv/bin/activate
+pip install -r requirements.txt

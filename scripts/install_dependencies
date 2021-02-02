@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 -m venv djangovenv
-source djangovenv/bin/activate
-pip install -r requirements.txt
+python3 -m venv /home/ec2-user/django-app/djangovenv
+source /home/ec2-user/django-app/djangovenv/bin/activate
+pip install -r /home/ec2-user/django-app/requirements.txt

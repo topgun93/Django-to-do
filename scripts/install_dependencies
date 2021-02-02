@@ -2,3 +2,4 @@
 python3 -m venv /home/ec2-user/django-app/djangovenv
 source /home/ec2-user/django-app/djangovenv/bin/activate
 pip install -r /home/ec2-user/django-app/requirements.txt
+python3 /home/ec2-user/django-app/todo/manage.py migrate
